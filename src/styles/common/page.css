@@ -1,0 +1,82 @@
+    
+  #pageBox{
+       width: 1200px;
+        margin-top: 80px;
+        height: 60px;
+    }
+
+      #pageBox {
+        color: #555;
+        font-size: 14px;
+      }
+
+    .index-page {
+        padding-top:10px;
+    }
+    .index-page .index-target {
+        width:25px;
+        height:14px;
+        line-height: 14px;
+        padding:3px 5px;
+        border-radius:2px;
+        vertical-align: middle;
+    }
+    .index-page .target {
+        margin-right:30px;
+        color:#808080;
+    }
+    .index-page .page-main {
+        height: 40px;
+display: inline-block;
+    }
+    .index-page .page-main li {
+        display: none;
+        float:left;
+        width:40px;
+        height:40px;
+        border:1px solid #e6e6e6;
+        text-align:center;
+        line-height:40px;
+        margin-right: 5px;
+    }
+    .index-page .page-main .block {
+        display: block;
+    }
+    .index-page .page-main a {
+        display:block;
+        height:100%;
+        color:#c0c0c0;
+    }
+    .index-page .page-main a:hover ,
+    .index-page .page-main .active {
+        background-color:#1f1f1f;
+        color:#fff;
+    }
+    .index-page .page-main .unable-page {
+        cursor: not-allowed;
+        background-color: #dedede;
+    }
+    .index-page .page-main .unable-page:hover {
+        background-color: #dedede;
+    }
+    .index-page .page-main .prev ,
+    .index-page .page-main .next {
+        display: block;
+        height: 12px;
+        padding: 15px 14px 15px 15px;
+    }
+    .index-page .page-main .prev-i ,
+    .index-page .page-main .next-i {
+        display:block;
+        width: 0;
+        height: 0;
+        border-top: 6px solid transparent;
+        border-right: 8px solid #c0c0c0;
+        border-bottom: 6px solid transparent;
+    }
+    .index-page .page-main .next-i {
+        border-top: 6px solid transparent;
+        border-right: none;
+        border-left: 8px solid #c0c0c0;
+        border-bottom: 6px solid transparent;
+    }

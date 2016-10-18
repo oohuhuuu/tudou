@@ -1,0 +1,382 @@
+#header .nav .min-width .index_nav{
+margin-left: 10px;
+height: 60px;
+
+}
+#banner{
+	min-width: 1200px;
+	height: auto;
+position: relative;
+
+}
+
+#banner #banner_list {
+	position: relative;
+text-align: center;
+padding-bottom: 41%;
+
+	width: 100%;
+background-color: #333;
+
+}
+#banner #banner_list a{
+		width: 100%;
+
+height: auto;
+ position: absolute;
+ top:0;
+ left:0;
+}
+#banner #banner_list img{
+	width: 100%;
+
+height: auto;
+background-color: #333;
+}
+
+ #banner .banner-btn{
+	position: absolute;
+	bottom: 50px;
+	left: 45%;
+}
+ #banner .banner-btn li{
+
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	float: left;
+	margin-left: 20px;
+	cursor: pointer;
+	z-index: 999;
+	 background-color: rgba(0,0,0,0.5) ;
+ border: 1px solid rgba(255,255,255,0.2);
+ -webkit-transition: 0.2s all ease;
+ -o-transition: 0.2s all ease;
+ transition: 0.2s all ease;
+
+}
+
+
+ .on {
+	background-color: rgba(255,255,255,0.5) !important;
+	width: 16px !important;
+	height: 16px !important;
+
+}
+
+
+
+
+
+
+
+#main-content{
+	width: 100%;
+
+
+}
+#main-content .content-item{
+	margin-top: 70px;
+
+}
+#main-content .content-item .figure-wrap{
+display: inline-block;
+margin-top: 40px;
+
+}
+#main-content .content-item .main-title{
+	color: #00c5ff;font-size: 18px;
+	font-weight: normal;
+	width: 100%;
+	text-align: left;
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #ddd;
+
+
+}
+#main-content .content-item figure figcaption .f_title{
+
+	color: #333;
+	font-weight: bold;
+	font-size: 16px;
+
+	line-height: 24px;
+
+}
+
+#main-content .content-item figure figcaption .price{
+	font-size: 16px;
+	color: #ff7124;
+}
+
+
+#main-content .content-item figure .time_box{
+	font-size: 14px;
+	height: 24px;
+	line-height: 24px;
+}
+#main-content .content-item1 figure{
+	width: 365px;
+	height: 70px;
+	position: relative;
+	float: left;
+
+
+}
+
+#main-content .content-item1 figure figcaption .f_title{
+white-space:nowrap; 
+width:100%; 
+overflow:hidden; 
+text-overflow:ellipsis;
+
+
+}
+
+#main-content .content-item1 .figure-wrap:nth-child(3n+0){
+	margin: 0 44px;
+	margin-top: 40px;
+}
+#main-content .content-item1 figure figcaption{
+	position: absolute;
+	right: 0;
+	top:0;
+	text-align: left;
+height: 70px;
+display: table-cell;
+vertical-align: middle;
+width: 290px;
+	box-sizing: border-box;
+	padding-left: 20px;
+	padding-top: 4px;
+
+}
+
+#main-content .content-item1{
+
+	width: 100%;
+}
+#main-content .content-item1 .figure-wrap{
+	width: 365px;
+	height: 70px;
+
+}
+
+
+
+#main-content .content-item1 figure .time_box .surplus{
+	color: #222;
+}
+#main-content .content-item1 figure .time_box .surplus b{
+	color: #ff7124;
+}
+
+
+
+
+
+
+
+
+#main-content .content-item figure{
+-webkit-transition: all 0.3s;
+-o-transition: all 0.3s;
+transition: all 0.3s;
+
+}
+
+
+
+
+
+#main-content .content-item2 figure{
+	width: 450px;
+	height: 200px;
+	position: relative;
+	float: left;
+	padding-right: 50px;
+	box-sizing: border-box;
+		font-size: 16px;
+
+
+
+}
+
+#main-content .content-item2 figure figcaption{
+	position: absolute;
+	right: 0;
+	top:0;
+	text-align: left;
+height: 70px;
+display: table-cell;
+vertical-align: middle;
+width: 250px;
+	box-sizing: border-box;
+	padding-left: 20px;
+	padding-top: 40px;
+
+}
+#main-content .content-item2 figure >img{
+	width: 200px;
+	height: 200px;
+}
+
+#main-content .content-item2{
+
+	width: 100%;
+}
+#main-content .content-item2 .figure-wrap{
+	width: 450px;
+	height: 200px;
+	margin-right: 145px;
+
+}
+#main-content .content-item2 .people{
+	color: #333;
+	height: 50px;
+	width: 100%;
+	line-height: 50px;
+
+}
+#main-content .content-item2 .people .user-name{
+		vertical-align: top;
+margin-left: 10px;
+
+}
+
+#main-content .content-item2 .people .user-p{
+	height: 50px;
+	width: 50px;
+	display: inline-block;
+	border-radius: 50%;
+}
+#main-content .content-item2 figure .time_box{
+margin-bottom: 30px;
+}
+
+#main-content .content-item2 figure .tip{
+	color: #fff;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	text-align:center;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#main-content .content-item2 figure .sp{
+	background: #00c5ff;
+}
+#main-content .content-item2 figure .rc{
+	background: #ff7124;
+}
+
+
+#main-content .content-item3 .main-title{
+	margin-bottom: 50px;
+}
+
+
+
+#main-content .content-item3 .figure-wrap{
+	width: 290px;
+	height: 300px;
+	text-align: center;
+
+
+}
+
+#main-content .content-item3 figure{
+	width: 300px;
+	height: 300;
+	position: relative;
+	float: left;
+
+	box-sizing: border-box;
+		font-size: 16px;
+		padding-top: 50px;
+
+
+
+}
+#main-content .content-item2 figure:hover{
+	box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+	-webkit-transform: translate3d(0,-2px,0);
+	-ms-transform: translate3d(0,-2px,0);
+	-o-transform: translate3d(0,-2px,0);
+	transform: translate3d(0,-2px,0);
+}
+#main-content .content-item2 figure:hover .f_title{
+	text-decoration: underline;
+}
+#main-content .content-item3 figure:hover{
+	box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+	-webkit-transform: translate3d(0,-2px,0);
+	-ms-transform: translate3d(0,-2px,0);
+	-o-transform: translate3d(0,-2px,0);
+	transform: translate3d(0,-2px,0);
+}
+#main-content .content-item1 figure:hover{
+background-color: #ddf4ff;
+}
+#main-content .content-item3 figure figcaption .f_title{
+font-size: 20px;
+color: #555;
+font-weight: bold;
+line-height: 50px;
+}
+#main-content .content-item1 figure:hover .f_title{
+	text-decoration: underline;
+}
+
+#main-content .content-item2 figure figcaption{
+	position: absolute;
+	right: 0;
+	top:0;
+	text-align: left;
+height: 70px;
+display: table-cell;
+vertical-align: middle;
+width: 250px;
+	box-sizing: border-box;
+	padding-left: 20px;
+	padding-top: 40px;
+
+}
+
+#main-content .content-item3 figure figcaption p{
+	line-height: 30px;
+	font-size: 16px;
+}
+
+
+#main-content .content-item3 figure >img{
+	width: 140px;
+	height: 140px;
+	border-radius: 50%;
+}
+
+
+
+#main-content .partner{
+	background: #fff;
+	width: 100%;
+	text-align: center;
+	padding-bottom: 130px;
+	padding-top: 80px;
+}
+#main-content .partner>a{
+	width: 200px;
+	height: 80px;
+	display: inline-block;
+	margin: 0 ;
+	padding: 0;
+	float: left;
+
+}
+#main-content .partner img{
+	width:200px;
+	height: 80px; 
+}

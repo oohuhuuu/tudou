@@ -1,0 +1,275 @@
+.datepicker_box{
+	display: inline-block;
+	margin-right: 30px;
+}
+
+#task_main {
+	font-size: 14px;
+	font-family: "微软雅黑";
+		box-sizing: border-box;
+		padding-top: 40px;
+
+}
+#task_main .tips{
+	background-color: #ffe3d3;
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	font-size: 14px;
+	padding: 0 20px;
+	color: #222;
+	position: relative;
+	box-sizing: border-box;
+}
+
+#task_main .tips .login a{
+	color: #4239f9 !important;
+	text-decoration: underline;
+}
+
+#task_main .tips .close{
+	width: 50px;
+	height: 35px;
+	position: absolute;
+	right: 0;
+	top:0;
+	cursor: pointer;
+	background:url("../../imgs/icon/close_03.png") no-repeat center center;
+}
+
+#task_main .task_filter{
+	padding: 50px 20px 100px 20px;
+	border-bottom: 1px solid #eaeaea;
+	position: relative;
+	box-sizing: border-box;
+}
+#task_main .task_filter a{
+		color: #222;
+
+}
+
+#task_main .is_filter .task_type{
+	margin-right: 15px;
+}
+
+#task_main .is_filter .task_type_name{
+	color: #55d0fe;
+	text-decoration: underline;
+}
+
+#task_main .is_filter .filter_group {
+margin:0 15px;
+}
+
+
+
+#header .nav .min-width .search-box{
+	width: 390px;
+	height: 60px;
+	margin-top: 12px;
+	box-sizing: border-box;
+	margin-left: 40px;
+}
+
+
+#task_main .search-box .search-wrap{
+height: 30px;
+width: 220px;
+line-height: 30px;
+background-color: #ffffff;
+font-size: 14px;
+border:1px solid #eaeaea;
+background-clip: padding-box;
+margin-left: 30px;
+}
+
+
+#task_main .search-box .search-wrap input[type=text]{
+height: 28px;
+width: 155px;
+border: none;
+padding: 0 10px;
+vertical-align: top;
+background-color: #ffffff;
+background-clip: padding-box;
+
+}
+#task_main .search-box .search-wrap input[type=submit]{
+
+width: 38px;
+height: 35px;
+padding: 0;
+margin:0;
+background-color: transparent;
+border: none;
+cursor: pointer;    vertical-align: top;
+    			margin: 0;
+    			background: url("../../imgs/search_03.png") no-repeat 5px 1px;
+}
+
+#task_main .task_filter .filter_{
+	display: inline-block;
+
+}
+#task_main .task_filter .filter_ select{
+	height: 34px;
+	width: 157px;
+	border:1px solid #eaeaea;
+	margin-right: 30px;
+
+}
+
+#task_main .task_filter .filter_box{
+	height: auto;
+	padding-top: 40px;
+}
+
+#task_main .task_filter  .today_n{
+	width: 260px;
+	height: 137px;
+	background-color: #00c5ff;
+	position: absolute;
+	right: 0px;
+	bottom: 60px;
+	padding: 10px 0 0px 15px;
+	box-sizing: border-box;
+}
+
+#task_main .task_filter  .today_n >p{
+	color: #fff;
+	line-height: 30px;
+}
+
+#task_main .task_filter  .today_n >p>span{
+	color: #333;
+}
+
+#task_main .task_filter  .today_n input{
+	width: 220px;
+	height: 40px;
+	background-color: #eee;
+	color: #333;
+	text-align: center;
+	line-height: 40px;
+	border: none;
+	cursor: pointer;
+	margin-left: 5px;
+	margin-top: 10px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+
+
+
+#task_main .task_content figure {
+	width: 900px;
+	height: 110px;
+	position: relative;
+	float: left;
+
+
+}
+
+
+#task_main .task_content figure img{
+	width: 110px;
+	height: 110px;
+
+}
+
+#task_main .task_content .item_box:not(:first-child){
+	border-top: 1px solid #eaeaea;
+}
+#task_main .task_content .item_box{
+	padding: 40px 0 80px 0;
+}
+#task_main .task_content .item_box:hover .f_title{
+text-decoration: underline;
+}
+#task_main .task_content figure .type{
+	width: 110px;
+	text-align: center;
+	margin-top: 5px;
+}
+#task_main .task_content{
+	padding: 30px 0 100px 0;
+}
+#task_main .task_content figure figcaption a .f_title {
+	font-size: 16px;
+	color: #1f1f1f ;
+	line-height: 24px;
+white-space:nowrap; 
+width:650px; 
+overflow:hidden; 
+text-overflow:ellipsis;
+display: inline-block;
+	font-family: "黑体";
+	font-size: 18px;
+
+
+
+
+}
+#task_main .task_content figure figcaption  .state1{
+background-color: #00c5ff;
+color: #fff;
+
+	font-size: 14px;
+	padding: 2px 5px;
+	border-radius: 3px;
+	position: absolute;
+	left: 680px;
+	top:0;
+}
+#task_main .task_content figure figcaption  .state2{
+background-color: #ff7124;
+color: #fff;
+
+	font-size: 14px;
+	padding: 2px 5px;
+	border-radius: 3px;
+	position: absolute;
+	left: 680px;
+	top:0;
+
+}
+
+
+#task_main .task_content figure figcaption{
+	position: absolute;
+	left: 120px;
+	top:0;
+	text-align: left;
+height: 110px;
+display: table-cell;
+vertical-align: middle;
+width: 900px;
+	box-sizing: border-box;
+	padding-left: 20px;
+	padding-top: 4px;
+	line-height: 26px;
+	color: #666;
+
+}
+
+
+#task_main .task_content figure .time_box .surplus b{
+	color: #ff7124;
+}
+
+
+
+#task_main .task_content .right_info{
+	width: 250px;
+	height: 110px;
+	display: block;
+	text-align: right;
+	line-height: 26px;
+}
+#task_main .task_content .right_info .price{
+	font-size: 16px;
+	color: #ff7124;
+}
+#task_main .task_content .right_info .unt .num{
+	color: #ff7124;
+}
