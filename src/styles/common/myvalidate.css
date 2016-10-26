@@ -1,0 +1,44 @@
+
+        .error_strings{
+        	width: 150px;
+        	padding:3px 10px;
+      	color: #db4f33;
+        
+        	font-size: 12px;
+        	display: none;
+   
+        	
+        	background: none;
+        
+        	border-left:5px solid #db4f33;
+        	line-height: 14px;
+ 
+        	position: absolute;
+        	top:5px;
+        	right: -165px;
+        	text-align: left ;
+
+
+        }
+.login .error_strings{
+	right: -100px;
+	top:7px;
+	        	padding:3px 10px;
+
+}
+
+.right_box  .error_strings{
+	top:10px;
+	        	right: -175px;
+
+}
+
+.inputfile + label+span.error_strings{
+color:#db4f33;
+}
+
+.readme_box  .error_strings{
+    top:0px;
+                right: -188px;
+
+}

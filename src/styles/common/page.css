@@ -1,18 +1,13 @@
     
   #pageBox{
-       width: 1200px;
-        margin-top: 80px;
-        height: 60px;
-    }
-
-      #pageBox {
-        color: #555;
+    
+        height: 40px;
+                color: #555;
         font-size: 14px;
-      }
-
-    .index-page {
-        padding-top:10px;
     }
+
+
+
     .index-page .index-target {
         width:25px;
         height:14px;

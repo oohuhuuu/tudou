@@ -1,0 +1,458 @@
+
+.right_box{
+	width: 990px;
+	height: auto;
+	box-sizing: border-box;
+
+
+}
+.right_box form.publish_form{
+	margin-left: 0;
+}
+
+.right_box form .warning{
+	width: 350px;
+	text-align: left;
+	margin-left: 50px;
+	font-size: 14px;
+	color: #ff7124;
+		margin-bottom: 10px;
+		background-color: #ffe3d3;
+		height: 40px;
+		line-height: 40px;
+		box-sizing: border-box;
+		padding-left: 20px;
+
+}
+
+
+.right_box form .warning{
+	width: 350px;
+	text-align: left;
+	margin-left: 135px;
+	font-size: 14px;
+	color: #ff7124;
+		margin-bottom: 10px;
+		background-color: #ffe3d3;
+		height: 40px;
+		line-height: 40px;
+		box-sizing: border-box;
+		padding-left: 20px;
+
+}
+
+
+.right_box form .warning span{
+	color: #333;
+}
+.right_box form
+{
+	width:500px;
+	height: auto;
+	box-sizing: border-box;
+	text-align: left;
+margin-left: 200px;
+
+	font-size: 14px;
+}
+
+.right_box form>p:not(.warning){
+	margin-bottom: 20px;
+	position: relative;
+}
+.right_box form>p>label{
+	width:120px;
+	text-align: right;
+	height: 40px;
+	line-height: 40px;
+	display: inline-block;
+	color: #333;
+		margin-right: 10px;
+}
+.right_box form input[type=text],
+.right_box form input[type=password],
+.right_box form select{
+	width:350px;
+	height: 40px;
+	box-sizing: border-box;
+	padding: 0 10px;
+	border:1px solid #eaeaea;
+	line-height: 40px;
+	font-size: 14px;
+}
+.right_box form .p_box{
+		width:350px;
+		display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	text-align: left;
+}
+
+
+
+
+
+
+.msg_val {
+	position: relative;
+}
+.msg_val .send_msg a{
+position: absolute;
+right: 17px;
+top:0px;
+height:38px;
+width: 95px;
+line-height: 38px;
+font-size: 14px;
+background-color: #fff;
+margin-top: 1px;
+-webkit-transition: 0.1s;
+-o-transition: 0.1s;
+transition: 0.1s;
+	color: #0029FC ;
+	text-align: center;
+
+}
+
+
+.msg_val .send_msg a:hover{
+	text-decoration: underline;
+		background-color: #00c5ff;
+		color: #fff;
+		z-index: 999;
+
+}
+
+
+
+.msg_val .send_msg::before{
+	content: '';
+	height: 30px;
+	width: 1px;
+	background-color: #eaeaea;
+	display: inline-block;
+	position: absolute;
+	top:5px;
+	right: 110px;
+	z-index: 99;
+}
+
+
+
+.right_box input[type=submit]{
+	width:350px;
+	height: 40px;
+	box-sizing: border-box;
+line-height: 40px;
+background-color: #00c5ff;
+font-size: 16px;
+color:#fff;
+	border:none;
+cursor: pointer;
+margin-top: 20px;
+margin-left: 135px;
+
+}
+
+
+.right_box input[type=submit]:hover{
+	opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+.table_box{
+	width: 995px;
+	box-sizing: border-box;
+	
+	height: auto;
+		position: relative;
+		padding-left: 40px;
+
+
+}
+.table_box .search_box{
+	width: 100%;
+	height: 35px;
+		padding-bottom: 10px;
+
+}
+
+.table_box .search_box input[type=text],
+.table_box .search_box select{
+	width: 210px;
+	height: 35px;
+	border: 1px solid #eaeaea;
+	margin-right: 17px;
+	outline: none;
+	box-sizing: border-box;
+	padding-left: 10px;
+		line-height: 35px;
+
+}
+.table_box .search_btn{
+		height: 35px;
+		border: none;
+	cursor: pointer;
+	color: #fff;
+		font-weight: 500;
+			line-height: 35px;
+	text-align: center;
+}
+.table_box .search_box input[type=submit]{
+	width: 90px;
+	background-color: #ff7124;
+
+
+}
+.table_box .search_box .newtask{
+margin-left: 17px;
+}
+.table_box .search_box .newtask{
+		width: 150px;
+	background-color: #00c5ff;
+
+
+}
+
+
+.table_box table{
+	width: 100%;
+	text-align: left;
+
+}
+
+.table_box table th{
+	border-bottom: 1px dashed #eaeaea;
+	height: 60px;
+	padding-bottom: 10px;
+	font-weight: 600;
+}
+
+.table_box table td{
+	color: #666;
+	height: 40px;
+
+}
+
+ .table_box table td.price{
+	color: #ff7124 ;
+
+}
+
+ .table_box table td a{
+ 	display: inline-block;
+ 	padding: 0 3px;
+ 	box-sizing: border-box;
+ }
+
+ .table_box table td a:hover{
+ 	text-decoration: underline;
+ 	color:#00c5ff;
+ }
+ .table_box #pageBox {
+ 	position: relative;
+ 	margin-top: 30px;
+ }
+ .table_box #pageBox .page-main{
+position: absolute;
+right: 0;
+bottom:0;
+ }
+
+
+.right_box .publish_textarea{
+	margin-left: 135px;
+	margin-top: 20px;
+}
+.right_box .publish_textarea textarea{
+	min-height: 150px;
+	width: 600px;
+	padding: 20px;
+	box-sizing: border-box;
+	resize: none;
+}
+
+
+
+
+
+
+
+
+
+ #cbtest{
+	display: none;
+}
+.checkall label{
+cursor: pointer;
+vertical-align: middle;
+
+ }
+
+ .checkall label:last-child{
+ 	height: 35px;
+ 	line-height: 36px;
+ 	display: inline-block;
+ }
+
+.right_box form .citybox input[type=text]{
+		width:180px;
+	height: 40px;
+	box-sizing: border-box;
+	padding: 0 10px;
+	border:1px solid #eaeaea;
+	line-height: 40px;
+	font-size: 14px;
+}
+.right_box form .citybox  .checkall{
+	width: 150px;
+text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+
+
+
+.message_box{
+		width: 995px;
+	box-sizing: border-box;
+	
+	height: auto;
+		position: relative;
+		padding-left: 40px;
+
+}
+
+.message_box .message_title{
+		width: 100%;
+	height: 35px;
+		padding-bottom: 20px;
+		border-bottom: 1px solid #eaeaea;
+
+}
+
+.message_box .message_title .meg_btn{
+	width: 130px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	display: inline-block;
+	border: 1px solid #eaeaea;
+	margin-right: 15px;
+	-webkit-transition: 0.15s;
+	-o-transition: 0.15s;
+	transition: 0.15s;
+}
+.message_box .message_title a:hover {
+	color:#00c5ff !important;
+
+}
+.message_box .message_title .meg_btn:hover{
+			border: 1px solid #00c5ff !important;
+
+}
+
+.message_active{
+		color:#00c5ff !important;
+
+				border: 1px solid #00c5ff !important;
+
+}
+
+.message_box .message_content figure{
+	height: 50px;
+	width: 100%;
+	position: relative;
+	padding: 15px 0
+}
+.message_box .message_content figure:not(:first-child){
+	border-top: 2px dashed #eaeaea;
+}
+.message_box .message_content figure input[type=checkbox]{
+	
+}
+.message_box .message_content figure img.user_p{
+	width: 48px;
+	height: 48px;
+		vertical-align: middle;
+
+}
+
+.message_box .message_content figure figcaption{
+	position: absolute;
+	width: 850px;
+	height: 50px;
+	left: 90px;
+	top:18px;
+}
+.message_box .message_content figure figcaption p.content{
+	width: 100%;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.checkbox_wrap{
+	height: 50px;
+	line-height: 50px;
+	display: inline-block;
+	text-align: center;
+	margin-right: 10px;
+}
+.message_box .message_content figure figcaption p.time{
+	color:#222;
+	font-weight: 600;
+}
+
+
+.message_box .check{
+	display: none;
+}
+.message_box .action{
+	width: 100%;
+	height: auto;
+	display: block;
+	border-top: 1px solid #eaeaea;
+padding-top: 10px;
+}
+
+.message_box .action input[type=button]{
+	height: 35px;
+	color:#fff;
+	text-align: center;
+	line-height: 35px;
+	padding: 0 25px;
+	border: none;
+	cursor: pointer;
+	margin-right: 20px;
+}
+.message_box .action input[type=button]:hover{
+	opacity: 0.8;
+}
+.message_box .action input[type=button].mark{
+	background-color: #00c5ff;
+
+}
+
+.message_box .action input[type=button].delete{
+	background-color: #ff7124;
+
+}
+.message_box .action .checkbox_wrap .chos{
+
+cursor: pointer;
+
+
+
+}
+.message_box .action .checkbox_wrap .check-box{
+	vertical-align: middle;
+}

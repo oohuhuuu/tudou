@@ -2,7 +2,7 @@
 	text-align: left;
 	margin-left: 145px;
 	font-size: 12px;
-	color: red;
+	color: #ff7124;
 		margin-bottom: 10px;
 
 }
@@ -30,6 +30,7 @@
 
 .user_ac>p:not(.warning){
 	margin-bottom: 30px;
+	position: relative;
 }
 .user_ac>p>label{
 	width:100px;
@@ -57,12 +58,12 @@
 	line-height: 35px;
 	text-align: left;
 }
-.user_ac input[type=text]:focus{
+/*.user_ac input[type=text]:focus{
 	border:1px solid #eaeaea;
 	box-shadow: 0 0 3px #ccc;
 }
-
-.reg input[type=submit].reset{
+*/
+.reg input[type=reset].reset{
 
 
 
@@ -81,7 +82,8 @@ background-color: #00c5ff;
 
 }
 
-.reg input[type=submit]{
+.reg input[type=submit],
+.reg input[type=reset]{
 	width:130px;
 	height: 40px;
 	box-sizing: border-box;
@@ -103,23 +105,30 @@ cursor: pointer;
 }
 .msg_val .send_msg a{
 position: absolute;
-right: 40px;
-top:1px;
-height:32px;
-width: 80px;
+right: 35px;
+top:0px;
+height:33px;
+width: 86px;
 line-height: 34px;
 font-size: 14px;
 background-color: #fff;
 margin-top: 1px;
-
-}
-.msg_val .send_msg a{
+-webkit-transition: 0.1s;
+-o-transition: 0.1s;
+transition: 0.1s;
 	color: #0029FC ;
 
 }
+
+
 .msg_val .send_msg a:hover{
 	text-decoration: underline;
+		background-color: #00c5ff;
+		color: #fff;
+		z-index: 999;
+
 }
+
 .msg_val .send_msg::before{
 	content: '';
 	height: 20px;

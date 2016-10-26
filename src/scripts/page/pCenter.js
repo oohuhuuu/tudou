@@ -4,4 +4,3 @@ require("../../styles/page/pCenter.css");
 
 
 
-var $=require('jquery');

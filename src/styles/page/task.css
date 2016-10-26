@@ -1,6 +1,29 @@
+.cityinput{
+       width: 100%;
+        line-height: 16px;
+        font-size: 14px;
+        color: #4b555b;
+        height: 35px;
+        background: none;
+        outline: none;
+        border: 1px solid #eaeaea;
+        background-color: #fff;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0 -1px;
+        padding: 7px 8px;
+        *padding-left: 0;
+        *padding-right: 0;
+        *text-indent: 8px;
+
+        transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+
+}
 .datepicker_box{
 	display: inline-block;
-	margin-right: 30px;
+	margin-right: 20px;
 }
 
 #task_main {
@@ -68,24 +91,25 @@ margin:0 15px;
 	height: 60px;
 	margin-top: 12px;
 	box-sizing: border-box;
-	margin-left: 40px;
 }
 
 
 #task_main .search-box .search-wrap{
-height: 30px;
+height: 32px;
 width: 220px;
-line-height: 30px;
+line-height: 34px;
 background-color: #ffffff;
 font-size: 14px;
 border:1px solid #eaeaea;
 background-clip: padding-box;
-margin-left: 30px;
+margin-left: 0px;
 }
 
 
 #task_main .search-box .search-wrap input[type=text]{
-height: 28px;
+	line-height: 34px;
+
+height: 30px;
 width: 155px;
 border: none;
 padding: 0 10px;
@@ -115,7 +139,7 @@ cursor: pointer;    vertical-align: top;
 	height: 34px;
 	width: 157px;
 	border:1px solid #eaeaea;
-	margin-right: 30px;
+	margin-right: 20px;
 
 }
 
@@ -147,7 +171,7 @@ cursor: pointer;    vertical-align: top;
 #task_main .task_filter  .today_n input{
 	width: 220px;
 	height: 40px;
-	background-color: #eee;
+	background-color: #fff;
 	color: #333;
 	text-align: center;
 	line-height: 40px;
@@ -156,8 +180,13 @@ cursor: pointer;    vertical-align: top;
 	margin-left: 5px;
 	margin-top: 10px;
 	box-shadow: 0 0 5px rgba(0,0,0,0.2);
+	-webkit-transition: 0.15s;
+	-o-transition: 0.15s;
+	transition: 0.15s;
 }
-
+#task_main .task_filter  .today_n input:hover{
+	color:#00c5ff;
+}
 
 
 
@@ -197,17 +226,18 @@ text-decoration: underline;
 #task_main .task_content figure figcaption a .f_title {
 	font-size: 16px;
 	color: #1f1f1f ;
-	line-height: 24px;
 white-space:nowrap; 
-width:650px; 
+max-width:650px; 
 overflow:hidden; 
 text-overflow:ellipsis;
 display: inline-block;
 	font-family: "黑体";
 	font-size: 18px;
-
-
-
+position: relative;
+padding-right: 90px;
+box-sizing: border-box;
+padding-bottom: 5px;
+vertical-align: middle;
 
 }
 #task_main .task_content figure figcaption  .state1{
@@ -215,10 +245,10 @@ background-color: #00c5ff;
 color: #fff;
 
 	font-size: 14px;
-	padding: 2px 5px;
+	padding: 0px 5px;
 	border-radius: 3px;
 	position: absolute;
-	left: 680px;
+	right: 0;
 	top:0;
 }
 #task_main .task_content figure figcaption  .state2{
@@ -226,10 +256,10 @@ background-color: #ff7124;
 color: #fff;
 
 	font-size: 14px;
-	padding: 2px 5px;
+	padding: 0px 5px;
 	border-radius: 3px;
 	position: absolute;
-	left: 680px;
+	right: 0;
 	top:0;
 
 }

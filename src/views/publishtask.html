@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>发布任务</title>
+</head>
+<body>
+	<div class="right_box ">
+		<form name="myform" class="publish_form">
+			<p class="warning">
+				温馨提示：
+				<span>描述准确可以更容易找打意中人哦</span>
+			</p>
+
+			<p class="publish_textarea">
+
+				<textarea placeholder="描述下你的任务信息,越详细效率会越高"></textarea>
+			</p>
+
+			<p>
+				<label for="publish_type">任务类型：</label>
+				<span>
+					<select id="publish_type">
+
+						<option>技术开发</option>
+						<option>1</option>
+						<option>1</option>
+						<option>1</option>
+						<option>1</option>
+						<option>1</option>
+
+					</select>
+				</span>
+			</p>
+
+			<p>
+				<label for="dline">截止日期：</label>
+				<span>
+					                                        <input type="text" name="datepicker" id="dline"  placeholder="选择截止日期" readonly="readonly">
+
+
+
+				</span>
+			</p>
+						<p class="citybox">
+				<label for="citySelect">选择省份：</label>
+				<span>
+										<select id="citySelect">
+						<option value="" class="">全部</option>
+						<option label="安徽省" >安徽省</option>
+						<option label="北京市" >北京市</option>
+						<option label="福建省" >福建省</option>
+						<option label="甘肃省" >甘肃省</option>
+						<option label="广东省" >广东省</option>
+						<option label="广西壮族自治区" >广西壮族自治区</option>
+						<option label="贵州省" >贵州省</option>
+						<option label="海南省" >海南省</option>
+						<option label="河北省">河北省</option>
+						<option label="河南省">河南省</option>
+						<option label="黑龙江省">黑龙江省</option>
+						<option label="湖北省">湖北省</option>
+						<option label="湖南省">湖南省</option>
+						<option label="吉林省">吉林省</option>
+						<option label="江苏省">江苏省</option>
+						<option label="江西省">江西省</option>
+						<option label="辽宁省">辽宁省</option>
+						<option label="内蒙古自治区">内蒙古自治区</option>
+						<option label="宁夏回族自治区">宁夏回族自治区</option>
+						<option label="青海省">青海省</option>
+						<option label="山东省">山东省</option>
+						<option label="山西省">山西省</option>
+						<option label="陕西省">陕西省</option>
+						<option label="上海市">上海市</option>
+						<option label="四川省">四川省</option>
+						<option label="天津市">天津市</option>
+						<option label="西藏自治区" >西藏自治区</option>
+						<option label="新疆维吾尔自治区" >新疆维吾尔自治区</option>
+						<option label="云南省" >云南省</option>
+						<option label="浙江省" >浙江省</option>
+						<option label="重庆市" >重庆市</option>
+						<option label="非大陆地区" >非大陆地区</option>
+					</select>
+
+
+				</span>
+			</p>
+						<p>
+				<label for="cardpic_box">身份证图：</label>
+				<span>
+					<input type="file" name="file-1[]" id="file-1" accept="image/*" class="inputfile inputfile-1" data-multiple-caption="{count} 个文件" multiple />
+					<label for="file-1">
+						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17">
+							<path d="M10 0l-5.2 4.9h3.3v5.1h3.8v-5.1h3.3l-5.2-4.9zm9.3 11.5l-3.2-2.1h-2l3.4 2.6h-3.5c-.1 0-.2.1-.2.1l-.8 2.3h-6l-.8-2.2c-.1-.1-.1-.2-.2-.2h-3.6l3.4-2.6h-2l-3.2 2.1c-.4.3-.7 1-.6 1.5l.6 3.1c.1.5.7.9 1.2.9h16.3c.6 0 1.1-.4 1.3-.9l.6-3.1c.1-.5-.2-1.2-.7-1.5z"/>
+						</svg>
+						<span>上传图片</span>
+					</label>
+				</span>
+			</p>
+
+			<p>
+				<label for="user_info">雇主信息：</label>
+				<span>
+					<input id="user_info"  type="text" placeholder="输入雇主信息" name="user_info" />
+				</span>
+			</p>
+			<p>
+				<label for="budget">预算金额：</label>
+				<span>
+					<input id="budget"  type="text" placeholder="输入预算金额" name="budget" />
+				</span>
+			</p>
+			<p>
+				<label for="trusteeship">托管资金：</label>
+				<span>
+					<input id="trusteeship"  type="text" placeholder="输入托管资金" name="trusteeship" />
+				</span>
+			</p>
+
+
+			<input type="submit" value="确认发布"></form>
+	</div>
+	<script src="http://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+	<script src="scripts/pikaday.min.js"></script>
+</body>
+</html>

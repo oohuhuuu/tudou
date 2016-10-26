@@ -1,0 +1,17 @@
+.right_box form>p:first-child{
+	text-align: left;
+}
+
+.right_box .tips{
+	width: 450px;
+	height: auto;
+	text-align: left;
+	margin-left: 140px;
+	color: #aaa;font-size: 12px;
+	line-height: 20px;
+}
+
+.right_box .tips ol{
+	color: #888;
+	font-size: 14px;
+}

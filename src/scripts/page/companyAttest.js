@@ -1,0 +1,42 @@
+require("../../styles/lib/reset.css");
+require("../../styles/common/common.css");
+require("../../styles/common/personCenterCommon.css");
+require("../../styles/page/companyAttest.css");
+require("../../styles/page/myAttest.css");
+require("../../styles/common/myvalidate.css");
+require("../components/validator.min.js");
+require("../components/myvalidate.js");
+require("../components/common.js");
+
+var $=require('jquery');
+
+
+'use strict';
+
+;( function ( document, window, index )
+{
+	var inputs = document.querySelectorAll( '.inputfile' );
+	Array.prototype.forEach.call( inputs, function( input )
+	{
+		var label	 = input.nextElementSibling,
+			labelVal = label.innerHTML;
+
+		input.addEventListener( 'change', function( e )
+		{
+			var fileName = '';
+			if( this.files && this.files.length > 1 )
+				fileName = ( this.getAttribute( 'data-multiple-caption' ) || '' ).replace( '{count}', this.files.length );
+			else
+				fileName = e.target.value.split( '\\' ).pop();
+
+			if( fileName )
+				label.querySelector( 'span' ).innerHTML = fileName;
+			else
+				label.innerHTML = labelVal;
+		});
+
+		// Firefox bug fix
+		// input.addEventListener( 'focus', function(){ input.classList.add( 'has-focus' ); });
+		// input.addEventListener( 'blur', function(){ input.classList.remove( 'has-focus' ); });
+	});
+}( document, window, 0 ));

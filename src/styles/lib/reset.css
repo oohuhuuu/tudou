@@ -1,4 +1,4 @@
-body,button,input,select,textarea{font:12px/1.414;color:#666;}
+body,button,input,select,textarea{    font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif; color: #333;}
 body,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,ol,li,th,td,p,blockquote,pre,form,fieldset,legend,input,button,textarea,hr,figure,figcaption,b{margin:0; padding:0;}
 table{border-collapse:collapse;border-spacing:0;}
 li{list-style:none;}
@@ -10,6 +10,6 @@ textarea{resize:none}
 address,caption,cite,code,dfn,em,i,th,var{font-style:normal;font-weight:normal;}
 legend{color:#000;}
 abbr,acronym {border:0;font-variant:normal;}
-a{text-decoration:none;color: #999;}
-a:hover{text-decoration:none;color: #999;}
+a{text-decoration:none;}
+a:hover{text-decoration:none;}
 

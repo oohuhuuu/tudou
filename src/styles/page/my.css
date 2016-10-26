@@ -1,7 +1,8 @@
 #my_content{
 	padding: 100px 0;
 	box-sizing: border-box;
-	min-height: 600px;
+	min-height: auto;
+	
 }
 
 #my_content .left_list{
@@ -118,10 +119,11 @@ min-height: 600px;
 
 }
 #myFrameId1{
-	width: 990px;
+	width: 995px;
 	min-height: 600px;
-	position: absolute;
-	top:0px;
-	right: 0px;
-	border: 1px solid red;
+	display: block;
+float: right;
+	box-sizing: border-box;
+
+
 }

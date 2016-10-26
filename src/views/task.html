@@ -18,7 +18,7 @@
 						<a href="javascript:">
 							<img src="../imgs/logo_03.png"></a>
 					</div>
-<div class="user fr common_user" style="display: none;">
+					<div class="user fr common_user" style="display: none;">
 						<div class="user-icon"></div>
 
 						<ul>
@@ -172,251 +172,282 @@
 
 						<select>
 
-							<option>1</option>
-							<option>2</option>
-							<option>3</option>
-							<option>4</option>
-							<option>5</option>
-							<option>6</option>
+							<option>已付诚意金</option>
+							<option>未付诚意金</option>
+							<option>全部</option>
 
 						</select>
-                                    <div class="form-group  w140 datepicker_box" >
-                                        <input type="text" name="datepicker" id="datetimepicker3" class="form-control" placeholder ="请选择发布时间" readonly="readonly">
-                                    </div>
-
-						<select>
-
-							<option>1</option>
-							<option>2</option>
-							<option>3</option>
-							<option>4</option>
-							<option>5</option>
-							<option>6</option>
-
-						</select>
-
-						<div class="search-box fr">
-							<div class="search-wrap">
-								<input type="text" name="search-key" placeholder="电子设计 代理">
-								<input type="submit" value="" />
-							</div>
-						</div>
-
-					</form>
-				</div>
-				<div class="today_n">
-					<p class="today_task">
-						今日发布任务
-						<span class="task_num num">20</span>
-					</p>
-					<p class="all_task">
-						今日发布任务
-						<span class="all_num num">200000</span>
-					</p>
-					<input type="button" value="立即发包" />
-				</div>
-			</div>
-
-			<div class="task_content">
-				<div class="item_box clearfix">
-
-						<figure class="main-items">
-							<img src="../imgs/task_tool_07.png" />
-							<p class="type">开发</p>
-							<figcaption>
-							<a href="javascript:">
-									<span class="f_title">
-										mac系统上的csr8670的dfu升级工具mac系统上mac系统上的csr8670的dfu升级工具mac系统上的csr8670的dfu升级工具mac系统上mac系统上的csr8670的dfu升级工具mac系统上的csr8670的dfu升级工具mac系统上mac系统上的csr8670的dfu升级工具
-									</span>
-									<span class="state1">已付托管金</span>
-									
-								</a>
-								<p>
-									发包方：
-									<span>xxxxxxxxxxxx</span>
-								</p>
-								<p class="time_box">
-									有效期至：
-									<span class="time">2016-11-31</span>
-									<span class="surplus">
-										(还剩 <b>10</b>
-										天)
-									</span>
-								</p>
-								<p>
-									发布地区：
-									<span>北京</span>
-								</p>
-							</figcaption>
-
-						</figure>
-
-						<div class="right_info fr">
-							<h3 class="price">
-								<b>￥</b>
-								1599.00
-							</h3>
-							<p class="state">招募中</p>
-							<p class="time">2016-11-31</p>
-							<p class="unt">
-								已有
-								<span class="num">6</span>
-								人申请
-							</p>
-
-						</div>
-
+						<!--                                     <div class=" datepicker_box" >
+						<input type="text" id="datetimepicker3" class="form-control" placeholder ="请选择发布时间" readonly="readonly" name="datepicker" />
 					</div>
-									<div class="item_box clearfix">
+					-->
+					<select>
 
-						<figure class="main-items">
-							<img src="../imgs/task_tool_10.png" />
-							<p class="type">开发</p>
-							<figcaption>
-							<a href="javascript:">
-									<span class="f_title">
-										mac系统上的csr8670的dfu升级工具mac系统上mac系统上的csr8670的dfu升级工具mac系统上的csr8670的dfu升级工具mac系统上mac系统上的csr8670的dfu升级工具mac系统上的csr8670的dfu升级工具mac系统上mac系统上的csr8670的dfu升级工具
-									</span>
-									<span class="state2">已付托管金</span>
-								</a>
-								<p>
-									发包方：
-									<span>xxxxxxxxxxxx</span>
-								</p>
-								<p class="time_box">
-									有效期至：
-									<span class="time">2016-11-31</span>
-									<span class="surplus">
-										(还剩 <b>10</b>
-										天)
-									</span>
-								</p>
-								<p>
-									发布地区：
-									<span>北京</span>
-								</p>
-							</figcaption>
+						<option>待接包</option>
+						<option>竞标中</option>
+						<option>已完成</option>
 
-						</figure>
+					</select>
 
-						<div class="right_info fr">
-							<h3 class="price">
-								<b>￥</b>
-								1599.00
-							</h3>
-							<p class="state">招募中</p>
-							<p class="time">2016-11-31</p>
-							<p class="unt">
-								已有
-								<span class="num">6</span>
-								人申请
-							</p>
-
+					<select id='province'>
+						<option value="" class="" selected="selected">-- 选择省份 --</option>
+						<option value="" class="">全部</option>
+						<option label="安徽省" >安徽省</option>
+						<option label="北京市" >北京市</option>
+						<option label="福建省" >福建省</option>
+						<option label="甘肃省" >甘肃省</option>
+						<option label="广东省" >广东省</option>
+						<option label="广西壮族自治区" >广西壮族自治区</option>
+						<option label="贵州省" >贵州省</option>
+						<option label="海南省" >海南省</option>
+						<option label="河北省">河北省</option>
+						<option label="河南省">河南省</option>
+						<option label="黑龙江省">黑龙江省</option>
+						<option label="湖北省">湖北省</option>
+						<option label="湖南省">湖南省</option>
+						<option label="吉林省">吉林省</option>
+						<option label="江苏省">江苏省</option>
+						<option label="江西省">江西省</option>
+						<option label="辽宁省">辽宁省</option>
+						<option label="内蒙古自治区">内蒙古自治区</option>
+						<option label="宁夏回族自治区">宁夏回族自治区</option>
+						<option label="青海省">青海省</option>
+						<option label="山东省">山东省</option>
+						<option label="山西省">山西省</option>
+						<option label="陕西省">陕西省</option>
+						<option label="上海市">上海市</option>
+						<option label="四川省">四川省</option>
+						<option label="天津市">天津市</option>
+						<option label="西藏自治区" >西藏自治区</option>
+						<option label="新疆维吾尔自治区" >新疆维吾尔自治区</option>
+						<option label="云南省" >云南省</option>
+						<option label="浙江省" >浙江省</option>
+						<option label="重庆市" >重庆市</option>
+						<option label="非大陆地区" >非大陆地区</option>
+					</select>
+					<div class="search-box fr">
+						<div class="search-wrap">
+							<input type="text" name="search-key" placeholder="电子设计 代理">
+							<input type="submit" value="" />
 						</div>
-
-					
 					</div>
-									<div class="item_box clearfix">
 
-									
-						<figure class="main-items">
-							<img src="../imgs/task_tool_03.png" />
-							<p class="type">开发</p>
-							<figcaption>
-								<a href="javascript:">
-									<span class="f_title">
-										mac系统上的csr8670的dfu升级工具mac系统上mac系统上的csr8670的dfu升级工具mac系统上的csr8670的dfu升级工具mac系统上mac系统上的csr8670的dfu升级工具mac系统上的csr8670的dfu升级工具mac系统上mac系统上的csr8670的dfu升级工具
-									</span>
-									<span class="state2">已付托管金</span>
-								</a>
-								<p>
-									发包方：
-									<span>xxxxxxxxxxxx</span>
-								</p>
-								<p class="time_box">
-									有效期至：
-									<span class="time">2016-11-31</span>
-									<span class="surplus">
-										(还剩 <b>10</b>
-										天)
-									</span>
-								</p>
-								<p>
-									发布地区：
-									<span>北京</span>
-								</p>
-							</figcaption>
-
-						</figure>
-
-						<div class="right_info fr">
-							<h3 class="price">
-								<b>￥</b>
-								1599.00
-							</h3>
-							<p class="state">招募中</p>
-							<p class="time">2016-11-31</p>
-							<p class="unt">
-								已有
-								<span class="num">6</span>
-								人申请
-							</p>
-
-						</div>
-
-				
-
-				</div>
-    <div class="index-page" id="pageBox"></div>  <!-- page.js  文件 -->
-
+				</form>
 			</div>
-
+			<div class="today_n">
+				<p class="today_task">
+					今日发布任务
+					<span class="task_num num">20</span>
+				</p>
+				<p class="all_task">
+					今日发布任务
+					<span class="all_num num">200000</span>
+				</p>
+				<input type="button" value="立即发包" />
+			</div>
 		</div>
-		<div id="footer">
 
-			<div class="info">
-				<ul class="clearfix">
+		<div class="task_content">
+			<div class="item_box clearfix">
 
-					<li>
+				<figure class="main-items">
+					<img src="http://ofjpktbeg.bkt.clouddn.com/task_tool_03.png" />
+					<p class="type">开发</p>
+					<figcaption>
 						<a href="javascript:">
-							<p>新手指南</p>
-							<p class="n">Newbie guide</p>
-						</a>
-					</li>
-					<li>
-						<a href="javascript:">
-							<p>帮助中心</p>
-							<p class="n">Help center</p>
-						</a>
-					</li>
-					<li>
-						<a href="javascript:">
-							<p>规则中心</p>
-							<p class="n">Rules of the center</p>
-						</a>
-					</li>
-					<li>
-						<a href="javascript:">
-							<p>关于我们</p>
-							<p class="n">About us</p>
-						</a>
-					</li>
+							<span class="f_title">
+								mac系统上的
+								<span class="state1">已付托管金</span>
 
-				</ul>
+							</span>
+
+						</a>
+						<p>
+							发包方：
+							<span>xxxxxxxxxxxx</span>
+						</p>
+						<p class="time_box">
+							有效期至：
+							<span class="time">2016-11-31</span>
+							<span class="surplus">
+								(还剩 <b>10</b>
+								天)
+							</span>
+						</p>
+						<p>
+							发布地区：
+							<span>北京</span>
+						</p>
+					</figcaption>
+
+				</figure>
+
+				<div class="right_info fr">
+					<h3 class="price">
+						<b>￥</b>
+						1599.00
+					</h3>
+					<p class="state">招募中</p>
+					<p class="time">2016-11-31</p>
+					<p class="unt">
+						已有
+						<span class="num">6</span>
+						人申请
+					</p>
+
+				</div>
 
 			</div>
-			<div class="bottom">
-			<p>云南小土豆机器人科技有限公司</p>
-			<p>Copyright © 2015-2016  All Rights Reserved.京ICP备23890840号</p>
+			<div class="item_box clearfix">
+
+				<figure class="main-items">
+					<img src="http://ofjpktbeg.bkt.clouddn.com/task_tool_07.png" />
+					<p class="type">开发</p>
+					<figcaption>
+						<a href="javascript:">
+							<span class="f_title">
+								mac系统上的csr8670的dfu升级工具mac系统上mac系统上的csr8670的dfu升级工具mac系统上的csr8670的dfu升级工具mac系统上mac系统上的csr8670的dfu升级工具mac系统上的csr8670的dfu升级工具mac系统上mac系统上的csr8670的dfu升级工具
+								<span class="state2">已付托管金</span>
+
+							</span>
+						</a>
+						<p>
+							发包方：
+							<span>xxxxxxxxxxxx</span>
+						</p>
+						<p class="time_box">
+							有效期至：
+							<span class="time">2016-11-31</span>
+							<span class="surplus">
+								(还剩
+								<b>10</b>
+								天)
+							</span>
+						</p>
+						<p>
+							发布地区：
+							<span>北京</span>
+						</p>
+					</figcaption>
+
+				</figure>
+
+				<div class="right_info fr">
+					<h3 class="price">
+						<b>￥</b>
+						1599.00
+					</h3>
+					<p class="state">招募中</p>
+					<p class="time">2016-11-31</p>
+					<p class="unt">
+						已有
+						<span class="num">6</span>
+						人申请
+					</p>
+
+				</div>
+
 			</div>
+			<div class="item_box clearfix">
+
+				<figure class="main-items">
+					<img src="http://ofjpktbeg.bkt.clouddn.com/task_tool_10.png" />
+					<p class="type">开发</p>
+					<figcaption>
+						<a href="javascript:">
+							<span class="f_title">
+								系统上的的升级工具系统上系统上的的dfu升级
+								<span class="state2">已付托管金</span>
+
+							</span>
+						</a>
+						<p>
+							发包方：
+							<span>xxxxxxxxxxxx</span>
+						</p>
+						<p class="time_box">
+							有效期至：
+							<span class="time">2016-11-31</span>
+							<span class="surplus">
+								(还剩
+								<b>10</b>
+								天)
+							</span>
+						</p>
+						<p>
+							发布地区：
+							<span>北京</span>
+						</p>
+					</figcaption>
+
+				</figure>
+
+				<div class="right_info fr">
+					<h3 class="price">
+						<b>￥</b>
+						1599.00
+					</h3>
+					<p class="state">招募中</p>
+					<p class="time">2016-11-31</p>
+					<p class="unt">
+						已有
+						<span class="num">6</span>
+						人申请
+					</p>
+
+				</div>
+
+			</div>
+			<div class="index-page" id="pageBox"></div>
+		
+
 		</div>
 
 	</div>
-	<script src="http://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
-	<script src="scripts/datetimepick.js"></script>
-	<script src="scripts/selectUi.js"></script>
+	<div id="footer">
 
-	<script src="scripts/page.js"></script>
+		<div class="info">
+			<ul class="clearfix">
+
+				<li>
+					<a href="javascript:">
+						<p>新手指南</p>
+						<p class="n">Newbie guide</p>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:">
+						<p>帮助中心</p>
+						<p class="n">Help center</p>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:">
+						<p>规则中心</p>
+						<p class="n">Rules of the center</p>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:">
+						<p>关于我们</p>
+						<p class="n">About us</p>
+					</a>
+				</li>
+
+			</ul>
+
+		</div>
+		<div class="bottom">
+			<p>云南小土豆机器人科技有限公司</p>
+			<p>Copyright © 2015-2016  All Rights Reserved.京ICP备23890840号</p>
+		</div>
+	</div>
+
+</div>
+<script src="http://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+<script src="scripts/page.js"></script>
+<script src="scripts/taskajax.js"></script>
+
 
 </body>
 </html>

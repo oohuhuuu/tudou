@@ -5,8 +5,8 @@
 	<title>注册</title>
 </head>
 <body>
-<div id="wrapper">
-<div id="header">
+	<div id="wrapper">
+		<div id="header">
 			<div class="nav">
 				<div class="min-width clearfix nav-content">
 
@@ -14,7 +14,7 @@
 						<a href="javascript:">
 							<img src="../imgs/logo_03.png"></a>
 					</div>
-<div class="user fr common_user" style="display: none;">
+					<div class="user fr common_user" style="display: none;">
 						<div class="user-icon"></div>
 
 						<ul>
@@ -124,97 +124,117 @@
 
 		</div>
 		<div class="min-width form_box">
-	<form class="reg user_ac">
+			<form class="reg user_ac" name="myform">
 
-		<h3 class="title">用户注册</h3>
-		<p class="warning">该手机号码已经注册</p>
+				<h3 class="title">用户注册</h3>
+				<p class="warning">该手机号码已经注册</p>
 
-		<p>
+				<p>
 
-			<label for="user_phone">手机号*</label>
-			<input id="user_phone" type="text" placeholder="请输入手机号" />
-		</p>
-		<p class="msg_val">
+					<label for="user_phone">手机号*</label>
+					<span>
+						<input id="user_phone" type="text" placeholder="请输入手机号" name="mobile" />
+					</span>
+				</p>
+				<p class="msg_val">
 
-			<label for="msg">短信验证*</label>
-			<input id="msg"  type="text" placeholder="请输入验证码" />
-			<span class="send_msg">
-				<a href="javascript:">获取验证码</a>
-			</span>
-		</p>
-		<p>
-			<label for="password">密码*</label>
-			<input id="password"  type="password" placeholder="请输入密码" />
-		</p>
+					<label for="msg">短信验证*</label>
+					<span>
+						<input id="msg"  type="text" placeholder="请输入验证码" name="msg_val" />
+					</span>
+					<span class="send_msg">
+						<a href="javascript:">获取验证码</a>
+					</span>
+				</p>
+				<p>
+					<label for="password">密码*</label>
+					<span>
+						<input id="password"  type="password" placeholder="请输入密码" name="password" />
+					</span>
+				</p>
 
-		<p>
-			<label for="password_r">确认密码*</label>
-			<input id="password_r"  type="password" placeholder="请再次输入密码" />
-		</p>
+				<p>
+					<label for="password_r">确认密码*</label>
+					<span>
+						<input type="password" id="password_r" name="password_r" />
+					</span>
+				</p>
 
-		<p>
-			<label>用户类型</label>
-			<span class="p_box">
-				<input id="receive"  type="radio" value="1" name="p" />
-				<label for="receive">接包方</label>
-				<input id="publish"  type="radio" value="0" name="p" />
-				<label for="publish">发包方</label>
-			</span>
+				<p>
+					<label>用户类型</label>
+					<span class="p_box">
+					<span class="type_box">
+						<input id="receive"  type="radio" value="1" name="checkRadio" />
+						<label class="check-radio" for="receive">
+							<span></span>
+						</label>
+						<label for="receive">接包方</label>
+						</span>
+											<span class="type_box">
 
-		</p>
-		<input type="submit" value="注册" class="reg_btn">
+						<input id="publish"  type="radio" value="0" name="checkRadio" />
+						<label class="check-radio" for="publish">
+							<span></span>
+						</label>
+						<label for="publish">发包方</label>
+							</span>
+					</span>
 
-		<a href="login.html"><input type="button" value="登陆" class="login_btn"></a>
-		<div class="readme_box">
+				</p>
+				<input type="submit" value="注册" class="reg_btn">
+				<a href="login.html">
+					<input type="button" value="登陆" class="login_btn">
+					<p class="readme_box">
+						<span class="clearfix">
 
-			<input type="checkbox" value="0" id="readme" />
-			<label for="readme">
-				我已阅读
-				<a href="javascript:">《小土豆机器人网用户协议》</a>
-			</label>
+							<input type="checkbox" id="cbtest" name="checkRadios" />
+							<label for="cbtest" class="check-box"></label>
+							<label for="cbtest">我已阅读</label>
+							<a class="readx"  href="javascript:">《小土豆机器人用户协议》</a>
+						</span>
+					</p>
 
-		</div>
-	</form>
-	</div>
-	<div id="footer">
-
-			<div class="info">
-				<ul class="clearfix">
-
-					<li>
-						<a href="javascript:">
-							<p>新手指南</p>
-							<p class="n">Newbie guide</p>
-						</a>
-					</li>
-					<li>
-						<a href="javascript:">
-							<p>帮助中心</p>
-							<p class="n">Help center</p>
-						</a>
-					</li>
-					<li>
-						<a href="javascript:">
-							<p>规则中心</p>
-							<p class="n">Rules of the center</p>
-						</a>
-					</li>
-					<li>
-						<a href="javascript:">
-							<p>关于我们</p>
-							<p class="n">About us</p>
-						</a>
-					</li>
-
-				</ul>
-
+				</form>
 			</div>
-			<div class="bottom">
-				<p>云南小土豆机器人科技有限公司</p>
-				<p>Copyright © 2015-2016  All Rights Reserved.京ICP备23890840号</p>
+			<div id="footer">
+
+				<div class="info">
+					<ul class="clearfix">
+
+						<li>
+							<a href="javascript:">
+								<p>新手指南</p>
+								<p class="n">Newbie guide</p>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:">
+								<p>帮助中心</p>
+								<p class="n">Help center</p>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:">
+								<p>规则中心</p>
+								<p class="n">Rules of the center</p>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:">
+								<p>关于我们</p>
+								<p class="n">About us</p>
+							</a>
+						</li>
+
+					</ul>
+
+				</div>
+				<div class="bottom">
+					<p>云南小土豆机器人科技有限公司</p>
+					<p>Copyright © 2015-2016  All Rights Reserved.京ICP备23890840号</p>
+				</div>
 			</div>
 		</div>
-	</div>
-	<script src="http://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+		<script src="http://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
 </body>
-</html>
+	</html>

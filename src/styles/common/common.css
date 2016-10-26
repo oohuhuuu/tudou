@@ -1,13 +1,16 @@
 
-
 body{
-	color:#333;
+
 }
 a{
 	text-decoration: none;
 	outline: none;
-}
+	color: #333;
 
+}
+a:hover{
+	color: #333;
+}
 .clearfix:after {
     clear: both;
     content: ".";
@@ -41,6 +44,9 @@ height: 340px;
 	color: #c3c3c3;
 	text-align: center;
 
+}
+#footer a{
+	color: #999;
 }
 
 #footer .info{
@@ -356,4 +362,80 @@ height: 60px;
 
 .user_{
 	margin-left: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.inputfile + label:hover{
+	opacity: 0.8;
+}
+
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputfile + label {
+width: 160px !important;
+    font-size: 14px;
+
+
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    background-color: #ff7712;
+        color: #fff !important;
+        height: 45px !important;
+        vertical-align: middle;
+        line-height: 45px !important;
+        position: relative;
+            padding-left: 20px;
+
+
+    /* 10px 20px */
+}
+.inputfile + label span{
+	width: 80%;
+	height: 45px;
+	display: inline-block;
+	text-align: center;
+}
+.inputfile + label+span{
+color:#999;
+}
+.inputfile + label svg {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    fill: currentColor;
+    margin-top: -0.25em;
+    /* 4px */
+
+}
+
+.hot a:first-child{
+	color: red;
+	font-weight: bold;
+	
+}
+
+.hot a:first-child:hover{
+	color: red;
 }

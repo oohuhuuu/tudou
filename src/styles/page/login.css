@@ -2,7 +2,7 @@
 	text-align: left;
 	margin-left: 90px;
 	font-size: 12px;
-	color: red;
+	color: #ff7124;
 	margin-bottom: 10px;
 }
 .login .title{
@@ -16,6 +16,7 @@
 
 .user_ac>p:not(.warning){
 	margin-bottom: 20px;
+	position: relative;
 }
 .user_ac
 {
@@ -28,7 +29,8 @@
 padding: 150px 0;
 margin-left: 350px;
 }
-.user_ac input[type=text]{
+.user_ac input[type=text],
+.user_ac input[type=password]{
 	width:300px;
 	height: 35px;
 	box-sizing: border-box;
@@ -38,11 +40,14 @@ margin-left: 350px;
 	font-size: 14px;
 }
 
-.user_ac input[type=text]:focus{
+/*.user_ac input[type=text]:focus{
 	border:1px solid #eaeaea;
 	box-shadow: 0 0 3px #ccc;
-}
-
+}*/
+/*.user_ac input[type=password]:focus{
+	border:1px solid #eaeaea;
+	box-shadow: 0 0 3px #ccc;
+}*/
 .user_ac input[type=submit].login_btn{
 	width:300px;
 	height: 40px;
@@ -75,8 +80,9 @@ margin-top: 20px;
 	display: inline-block;
 }
 
-.login .login_b span:hover{
+.login .login_b span:hover a{
 		text-decoration: underline;
+		color: #00c5ff !important;
 
 }
 

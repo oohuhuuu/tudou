@@ -6,9 +6,8 @@
 </head>
 <body>
 
-
-<div id="wrapper">
-<div id="header">
+	<div id="wrapper">
+		<div id="header">
 			<div class="nav">
 				<div class="min-width clearfix nav-content">
 
@@ -16,7 +15,7 @@
 						<a href="javascript:">
 							<img src="../imgs/logo_03.png"></a>
 					</div>
-<div class="user fr common_user" style="display: none;">
+					<div class="user fr common_user" style="display: none;">
 						<div class="user-icon"></div>
 
 						<ul>
@@ -126,41 +125,46 @@
 
 		</div>
 		<div class="min-width">
-	<form class="reg user_ac">
+			<form class="reg user_ac" name="myform">
 
-	<h3 class="title">找回密码</h3>
-	<p class="warning">该手机号码已经注册</p>
+				<h3 class="title">找回密码</h3>
+				<p class="warning">该手机号码已经注册</p>
 
-<p>
+				<p>
 
-<label for="user_phone">手机号*</label>
-<input id="user_phone" type="text" placeholder="请输入手机号" />
-</p>
-<p class="msg_val">
+					<label for="user_phone">手机号*</label>
+					<span>					<input id="user_phone" type="text" placeholder="请输入手机号"  name="mobile" /></span>
 
-<label for="msg">短信验证码*</label>
-<input id="msg"  type="text" placeholder="请输入验证码" />
-<span class="send_msg"> <a href="javascript:">获取验证码</a> </span>
-</p>
-<p>
-<label for="password">新密码*</label>
-<input id="password"  type="password" placeholder="请输入密码" />
-</p>
+				</p>
+				<p class="msg_val">
 
+					<label for="msg">短信验证码*</label>
+					<span>
+					<input id="msg"  type="text" placeholder="请输入验证码" name="msg_val" />
+					</span>
+					<span class="send_msg">
+						<a href="javascript:">获取验证码</a>
+					</span>
+				</p>
+				<p>
+					<label for="password">新密码*</label>
+					<span>
+					<input id="password"  type="password" placeholder="请输入密码" name="password" />
+					</span>
+				</p>
 
-<p>
-<label for="password_r">确认密码*</label>
-<input id="password_r"  type="password" placeholder="请再次输入密码" />
-</p>
+				<p>
+					<label for="passworda">确认密码*</label>
+					<span>
+					<input id="passworda"  type="password" placeholder="请再次输入密码" name="password_r" />
+					</span>
+				</p>
 
+				<input type="submit" value="提交" class="submit">
 
-<input type="submit" value="提交" class="submit">
-
-<input type="submit" value="重置" class="reset">
-
-	</form>
-	</div>
-	<div id="footer">
+				<input type="reset" value="重置" class="reset"></form>
+		</div>
+		<div id="footer">
 
 			<div class="info">
 				<ul class="clearfix">
@@ -199,7 +203,7 @@
 			</div>
 		</div>
 	</div>
-		<script src="http://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+	<script src="http://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
 
 </body>
 </html>
